@@ -14,8 +14,60 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  width: 100%;
+  width: 100%;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'PPNeueMontreal Regular', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal Bold';
+  src: url('/fonts/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal Medium';
+  src: url('/fonts/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal Regular';
+  src: url('/fonts/PPNeueMontreal-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontrealMono Bold';
+  src: url('/fonts/PPNeueMontrealMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontrealMono Regular';
+  src: url('/fonts/PPNeueMontrealMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mono {
+  font-family: 'PPNeueMontrealMono Regular', monospace;
+}
+
+.mono-bold {
+  font-family: 'PPNeueMontrealMono Bold', monospace;
 }
